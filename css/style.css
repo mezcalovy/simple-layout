@@ -1,0 +1,78 @@
+@font-face {
+	font-family: 'VT323';
+	src: url('../fonts/VT323-Regular.eot');
+	src: local('../fonts/VT323 Regular'), local('VT323-Regular'),
+		url('../fonts/VT323-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/VT323-Regular.woff2') format('woff2'),
+		url('../fonts/VT323-Regular.woff') format('woff'),
+		url('../fonts/VT323-Regular.ttf') format('truetype'),
+		url('../fonts/VT323-Regular.svg#VT323-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body{
+	font-family:VT323,Arial,sans-serif;
+}
+
+/*reset css*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+/*common styles */
+body{
+	font-family:VT323,Arial,sans-serif;
+}
+
+/*styles for header */
+
+header{
+	width:100%;
+	background-color:grey;
+	font-size:25px;
+	}
+
+.main-width{
+	width: 800px;
+	margin 0 auto;
+	display:block;
+}
+.main-width::after{
+	clear:both;
+	content:"";
+	display:block;
+}
+
+#header-logo{
+	float:left;
+}
+
+#header-menu{
+	float:right;
+}
+#header-menu li{
+	display:inline-block;
+}
+
+.slider{
+	background-color:beige;
+	text-align:center;
+}
+
+.slider h1{
+	text-align:center;
+}
+
+.button{
+	background-color:grey;
+	width:100px;
+	margin 10px auto;
+	border-radius:2px;
+	
+	
+}
